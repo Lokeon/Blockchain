@@ -1,0 +1,7 @@
+{
+    "branch": "master",
+    "language": "go",
+    "build": [
+        "go vbuild",
+    ]
+ }
