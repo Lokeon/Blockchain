@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"time"
+	"fmt"
 
 	"github.com/davecgh/go-spew/spew"
 	"github.com/gorilla/mux"
@@ -138,6 +139,7 @@ func run() error {
 }
 
 func main() {
+	fmt.Print("HOOOOLA")
 	err := godotenv.Load()
 	if err != nil {
 		log.Fatal(err)
